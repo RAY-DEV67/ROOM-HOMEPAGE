@@ -27,6 +27,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Tailwind
+- Javascript
 
 
 ## Author
