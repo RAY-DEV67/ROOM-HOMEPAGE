@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:  hsl(0, 0%, 63%);
+    font-family: 'League Spartan', sans-serif;
+}
+.head{
+    /* background-image: url(images/mobile-image-hero-1.jpg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+}
+.shop{
+    letter-spacing: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.section2{
+    height:40vh
+}
+h1{
+    color: black;
+    font-weight: 700 ;
+}
+h2{
+    color: black;
+    font-weight: 600 ;
+}
+.buttons{
+    position: absolute;
+transform: translateY(-125%);
+/* transform: translateX(-100%); */
+z-index: 97987;
+}
+.swiper-button-prev{
+    color: white;
+}
+.nav{
+    position: absolute;
+    z-index: 87378;
+    background-color: white;
+}
+.mobilemenubg{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    /* background-color: aqua; */
+    transform: translateY(-100%);
+    transition: 0.5s ease-in-out;
+  }

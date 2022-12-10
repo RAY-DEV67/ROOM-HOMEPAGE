@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Room homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="mobilemenubg md:hidden">
+      <div
+        class="flex justify-between px-8 w-full top-0 py-12 items-center nav"
+      >
+        <img src="images/icon-close.svg" alt="close" class="close cursor-pointer" />
+        <div>
+          <a>Home</a>
+          <a class="mx-4">Shop</a>
+          <a class="mr-4">About</a>
+          <a>Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="flex flex-col md:flex-row">
+            <div
+              class="bg-cover flex head p-8 w-full bg-[url('images/mobile-image-hero-1.jpg')] md:bg-[url('images/desktop-image-hero-1.jpg')]"
+            >
+              <img
+                class="w-4 mr h-4 md:hidden ham cursor-pointer"
+                src="images/icon-hamburger.svg"
+                alt="hambugger"
+              />
+              <div
+                class="flex justify-center text-white w-full md:justify-start"
+              >
+                <img class="w-16 h-4" src="images/logo.svg" alt="logo" />
+                <div class="ml-8 -mt-1 hidden md:block">
+                  <a>Home</a>
+                  <a class="mx-4">Shop</a>
+                  <a class="mr-4">About</a>
+                  <a>Contact</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full flex flex-col justify-center items-center md:pl-12"
+            >
+              <div class="w-11/12">
+                <h1 class="text-2xl mt-12 md:max-w-sm md:mt-0">
+                  Discover innovative ways to decorate
+                </h1>
+
+                <div class="mt-4 md:max-w-sm">
+                  We provide unmatched quality, comfort, and style for property
+                  owners across the country. Our experts combine form and
+                  function in bringing your vision to life. Create a room in
+                  your own style with our collection and make your property a
+                  reflection of you and what you love.
+                </div>
+
+                <div class="flex items-center">
+                  <div class="text-2xl shop mt-8">Shop now</div>
+                  <img class="mt-8" src="images/icon-arrow.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flex flex-col md:flex-row">
+            <div
+              class="bg-cover flex head p-8 w-full bg-[url('images/mobile-image-hero-2.jpg')] md:bg-[url('images/desktop-image-hero-2.jpg')]"
+            >
+              <img
+                class="w-4 mr h-4 md:hidden cursor-pointer"
+                src="images/icon-hamburger.svg"
+                alt="hambugger"
+              />
+              <div
+                class="flex justify-center text-white w-full md:justify-start"
+              >
+                <img class="w-16 h-4" src="images/logo.svg" alt="logo" />
+                <div class="ml-8 -mt-1 hidden md:block">
+                  <a>Home</a>
+                  <a class="mx-4">Shop</a>
+                  <a class="mr-4">About</a>
+                  <a>Contact</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full flex flex-col justify-center items-center md:pl-12"
+            >
+              <div class="w-11/12">
+                <h1 class="text-2xl mt-12 md:max-w-sm md:mt-0">
+                  We are available all across the globe
+                </h1>
+
+                <div class="mt-4 md:max-w-sm">
+                  With stores all over the world, it's easy for you to find
+                  furniture for your home or place of business. Locally, we’re
+                  in most major cities throughout the country. Find the branch
+                  nearest you using our store locator. Any questions? Don't
+                  hesitate to contact us today.
+                </div>
+
+                <div class="flex items-center">
+                  <div class="text-2xl shop mt-8">Shop now</div>
+                  <img class="mt-8" src="images/icon-arrow.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flex flex-col md:flex-row">
+            <div
+              class="bg-cover flex head p-8 w-full bg-[url('images/mobile-image-hero-3.jpg')] md:bg-[url('images/desktop-image-hero-3.jpg')]"
+            >
+              <img
+                class="w-4 mr h-4 md:hidden cursor-pointer"
+                src="images/icon-hamburger.svg"
+                alt="hambugger"
+              />
+              <div
+                class="flex justify-center text-white w-full md:justify-start"
+              >
+                <img class="w-16 h-4" src="images/logo.svg" alt="logo" />
+                <div class="ml-8 -mt-1 hidden md:block">
+                  <a>Home</a>
+                  <a class="mx-4">Shop</a>
+                  <a class="mr-4">About</a>
+                  <a>Contact</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full flex flex-col justify-center items-center md:pl-12"
+            >
+              <div class="w-11/12">
+                <h1 class="text-2xl mt-12 md:max-w-sm md:mt-0">
+                  Manufactured with the best materials
+                </h1>
+
+                <div class="mt-4 md:max-w-sm">
+                  Our modern furniture store provide a high level of quality.
+                  Our company has invested in advanced technology to ensure that
+                  every product is made as perfect and as consistent as
+                  possible. With three decades of experience in this industry,
+                  we understand what customers want for their home and office.
+                </div>
+
+                <div class="flex items-center">
+                  <div class="text-2xl shop mt-8">Shop now</div>
+                  <img class="mt-8" src="images/icon-arrow.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        ...
+      </div>
+
+      <div
+        class="flex items-center absolute top-96 left-full -ml-32 buttons bg-black justify-center h-12 w-32 md:left-1/2 md:ml-1 md:mt-3 md:top-full"
+      >
+        <img
+          class="pr-2 ml-8 w-4 -mt-2 h-4 swiper-button-prev"
+          src="images/icon-angle-left.svg"
+          alt="left"
+        />
+        <img
+          class="pr-2 mr-4 w-4 -mt-2 h-4 swiper-button-next"
+          src="images/icon-angle-right.svg"
+          alt="right"
+        />
+      </div>
+    </div>
+
+    <!-- BOTTOM SECTION//////////////////////////////////////// -->
+
+    <div class="flex flex-col md:flex-row section2">
+      <img
+        class="mt-12 w-full md:w-3/12 md:mt-0"
+        src="images/image-about-dark.jpg"
+        alt="about"
+      />
+
+      <div class="w-full flex flex-col justify-center items-center md:px-8">
+        <div class="w-11/12">
+          <h2 class="text-2xl mt-12 tracking-widest md:mt-8 md:mt-0">
+            About our furniture
+          </h2>
+
+          <div class="mt-4 md:max-w-">
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </div>
+        </div>
+      </div>
+
+      <img
+        class="w-full mt-12 md:w-3/12 md:mt-0"
+        src="images/image-about-light.jpg"
+        alt="About"
+      />
+    </div>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        effect: "flip",
+        grabCursor: true,
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+      const ham = document.querySelector(".ham");
+      const mobileMenu = document.querySelector(".mobilemenubg");
+      const closeMobileMenu = document.querySelector(".close");
+
+      ham.addEventListener("click", function () {
+        mobileMenu.style.transform = "translateY(0)";
+        mobileMenu.style.backgroundColor = "hsla(0, 0%, 0%, 75%)";
+      });
+      closeMobileMenu.addEventListener("click", function () {
+        mobileMenu.style.transform = "translateY(-100%)";
+      });
+    </script>
+  </body>
+</html>
